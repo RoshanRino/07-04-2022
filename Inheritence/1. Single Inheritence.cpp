@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class function
+class functionbyme
 {
     public:
     void what()
@@ -9,7 +9,7 @@ class function
         cout<<"This is a Person";
     }
 };
-class Person : public function
+class Person : public functionbyme
 {
     int ID;
     string name;
