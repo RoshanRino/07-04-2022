@@ -10,6 +10,8 @@ public:
     }
     void printData()
     {
+
+        cout<<"Stored Format: "<<data<<endl<<"Actual Data: ";
         cout<<(data>>6)<<" : "<<data%64<<endl;
     }
 };
